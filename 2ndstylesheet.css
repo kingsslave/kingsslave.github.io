@@ -1,0 +1,117 @@
+				form{
+					background-color:wheat;
+					margin:auto;
+					width:50%;
+					text-align:center;
+					border:solid black 3px;
+					border-radius:20px;
+					
+				}
+				
+				h1{
+					font-size:160%;
+					background-color:pink;
+					width:100%;
+					text-align:center;
+				}
+				body{
+					margin:0;
+					background-color:gray;
+				}
+				ul{
+					height:65px;
+					width:100%;
+					background-color:black;
+					padding:0;
+					margin:0;
+					list-style:none;
+				}	
+					
+				input[type=text], input[type=password]{
+						transition: 0.7s;
+					
+				}
+				input[type=text]:focus, input[type=password]:focus{
+						border:solid black 3px;
+					
+				}
+				li{
+					border-right:solid white 1px;
+					float:left;
+					display:block;
+					text-align:center;
+					font-size:125%;
+					background-color:black;
+					height:65px;
+					width:120px;
+					box-sizing:border-box;
+					
+					}
+				a{	
+					text-decoration:none;
+					color:white;
+					display:block;
+					padding-bottom:22px;
+					padding-top:20px;
+
+				}
+				a:hover:not(.active){
+					background-color:white;
+					color:black;
+					
+				}
+				.active{
+					background-color:green;
+				}
+				.dropbar{
+					display:none;
+					background-color:gray;
+					position:absolute;
+					width:119px;
+					border:solid black 2px;
+					
+				}
+				.dropbarcontainer:hover .dropbar{
+					display:block;
+					
+				}	
+				
+				::-moz-selection{
+							background-color:blue;
+							color:red;
+						}
+				::selection{
+							background-color:blue;
+							color:red;
+						}
+				.img1{
+							position:absolute;
+							z-index:-1;
+							height:70%;
+							width:100%;
+							opacity:0.6;
+						}						
+				@media all and (max-width:480px){
+					li{
+						border-bottom:solid white 1px;
+						width:50%;
+						text-align:left;
+					}
+				.dropbar{
+						width:50%;
+					}
+					form{
+						width:100%;
+						
+					}
+
+
+				}
+				@media all and (max-width:240px){
+					li{
+						width:100%;
+					}
+					.dropbar{
+						width:100%;
+					}
+									}				
