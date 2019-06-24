@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<style>
+			.textoverflow {
+				background-color:pink;
+				white-space:nowrap;
+				overflow:hidden;
+				text-overflow:ellipsis;
+				width:110px;
+			}
+			.textoverflow:hover{
+				transform: scale(4,2);
+			}
+			.wordbreak {
+				background-color:green;
+				width:100px;
+				overflow:hidden;
+				word-break:break-all;
+				
+			}
+			.block:hover {
+				transform:translate(80px, 30px);
+				
+			}
+			.vwrite {
+				writing-mode:vertical-rl;
+				background-color:yellow;
+				width:100%;
+			}
+			.vwrite:hover{
+				transform:rotate(50deg);
+			}
+			@font-face {
+				font-family: coolfont;
+				src: url('../Study/Mali-Regular.ttf');
+			}
+			* {
+				font-family: coolfont;
+			}
+			 .block {
+				display:block;
+			 }
+			 .skew{
+				background-color:red;
+			 }
+			 .skew:hover{
+				transform:skew(70deg, 10deg);
+			 }
+		</style>
+	</head>
+	<body>
+		<pre class="textoverflow">kfvjifodjskjmvfrkm</pre>
+		<div class="wordbreak block">hello im here hello im here hello im here
+							 hello im here hello im here hello im here
+							 hello im here hello im here hello im here
+		</div>
+		<div class="vwrite">i am a vertical writing</div>
+		<div class="skew">this is the skew 2d animation</div>	
+	</body>
+</html>
