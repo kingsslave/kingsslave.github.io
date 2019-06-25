@@ -11,23 +11,17 @@
 				border-bottom:solid gray 5px;
 				border-right:solid red 5px;
 				border-left:solid red 5px;
-				animation:cycle 0.4s infinite;
+				animation:cycle 6.4s infinite;
 				animation-delay:0.8s;
-				animation-direction:alternate;
+				animation-direction:forward;
 
 			}
 			@keyframes cycle {
-				0% {transform:rotate(0deg);transform:rotateY(20deg);}
-				10% {transform:rotate(20deg);transform:rotateY(20deg);}
-				20% {transform:rotate(40deg);transform:rotateY(40deg);}
-				30% {transform:rotate(60deg);transform:rotateY(50deg);}
-				40% {transform:rotate(80deg);transform:rotateY(60deg);}
-				50% {transform:rotate(90deg);transform:rotateY(90deg);}
-				60% {transform:rotate(100deg);transform:rotateY(20deg);}
-				70% {transform:rotate(120deg);transform:rotateY(20deg);}
-				80% {transform:rotate(140deg);transform:rotateY(20deg);}
-				90% {transform:rotate(160deg);transform:rotateY(20deg);}
-				100% {transform:rotate(180deg);transform:rotateY(20deg);}
+				0%{transform:rotate(0deg) rotateY(0deg);}
+				25%{transform:rotate(90deg) rotateY(180deg);}
+				50%{transform:rotate(180deg) 0px,80px);}
+				75%{transform:rotate(270deg) ;}
+				100%{transform:rotate(360deg) ;}
 				
 
 			
