@@ -29,9 +29,13 @@
 
 
 			}
+			* {
+				box-sizing:border-box;
+				margin:0;
+			}
 			.flexbox{
-				display:flex;	
 				width:100%;
+				display:flex;	
 				background-color:blue;
 				
 			}
@@ -39,20 +43,23 @@
 				height:807px;
 				width:240px;
 				
+				
 			}
 			.main {
 				height:807px;
 				background-color:black;
 				width:calc(100% - 240px);
 			}
+			.dir{
+				flex-direction:row-reverse;
+			}
 			footer{
 				background-color:gray;
 				height:100px;
 			}
 			@media all and (max-width:540px) {
-				* {
+				.dir {
 					flex-direction:column;
-					
 				}
 				.main {
 					width:100%;
@@ -74,9 +81,8 @@
 				<div>6</div>
 				<div>7</div>
 				<div>8</div>
-				<div>9</div>
 		</div>
-		<div class="flexbox">
+		<div class="flexbox dir">
 
 			<div class="main">
 				
