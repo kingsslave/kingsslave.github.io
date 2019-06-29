@@ -4,7 +4,7 @@
 	margin:0px;
 	box-sizing:border-box;
 }
-8::first-letter {
+*::first-letter (not .d){
 	
 	text-transform:capitalize;
 }
@@ -13,7 +13,9 @@
 }
 
 .style2{
-	background-image:linear-gradient(to bottom, white,white,gray,black);
+	background:linear-gradient(to bottom, white,white,gray,black);
+	background-size:contain;
+	
 	
 }
 
@@ -29,7 +31,7 @@ ul p {
 }
 
 .gridbox1 {
-	height:100%;
+	
 	display:grid;
 	grid-template-columns:  1fr 500px 1fr ;
 	grid-template-rows: 400px 120px auto auto ;
@@ -58,5 +60,21 @@ h1 {
 	direction:rtl;
 	text-align:right;
 	color:white;
+	
+}
+@media all and (max-width:540px) {
+
+	.gridbox1 {
+		
+		display:grid;
+		
+		grid-template-rows: 100% 100% 100% 100%  ;
+
+	}
+	.img1 {	
+	width:100%;	
+}
+
+
 	
 }
