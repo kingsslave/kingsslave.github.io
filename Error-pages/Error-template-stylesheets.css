@@ -21,11 +21,15 @@ ul p {
 	
 	grid-template-rows: 400px 120px auto auto ;
 	align-items:center;
-	
-	
-
 }
-
+a {
+	color:blue;
+	text-decoration:none;
+}
+a:hover {
+	
+	color:green;
+}
 .img1 {	
 	object-fit:cover;
 	
