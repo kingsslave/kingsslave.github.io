@@ -1,0 +1,117 @@
+
+/*301*/
+
+the site has been moved to another url permanently
+
+please visit       to enter our site
+
+/*305*/
+proxy required
+
+a proxy is required to enter this page
+
+
+/*401*/
+
+permission unauthorized
+
+it seems you do not have permission to access this site
+
+possible reason to forbidding your entry:
+
+user authentication failure
+your ip address is banned from this site 
+
+/*402 */
+
+payment required
+
+no sufficent  funds available to proceed 
+
+please add more funds to your credit card 
+
+
+/*403 error page*/
+
+forbidden 403
+
+access denied 
+
+what you can try to do:
+check if the url has any mistakes and that you are specifying an actual web page file name and extension
+log in to the website
+clear your browsers cache and cookies
+contact your internet server provider
+
+
+/*404 error page*/
+
+page not found
+
+the page youre looking for either doesnt exist or has been removed.
+
+what  you can try:
+
+refresh the browser 
+return to main page
+try again later
+if the issue perssist contact the developers*
+
+/*405*/
+
+method not allowed
+
+what you can do:
+
+check if the url is correct
+check for data changes
+uninstall new extensions 
+
+/* 407  */
+proxy authentication required
+
+/*408*/
+
+request timeout
+
+the user wasnt able to finish the request within the specified time.
+
+please try again.
+
+/*414*/
+
+url too long
+
+the provided url is too long and couldnt be proccessed
+
+check if the url is inserted correctly
+try to refresh the page
+
+/*418*/
+
+im a teapot
+
+its a stupid meme that im not sure why exists but my boss wanted me to add a page for it and so i did.
+
+/*451*/
+
+unavailable for legal reasons
+
+/*501*/
+
+not implemented
+
+the server doesnt understand the request method 
+
+contact the server operator for future availability
+
+/*502*/
+
+bad gateway
+
+/*505*/
+
+http version not supported
+
+contact the server operator for future availability
+
