@@ -4,7 +4,7 @@
 	margin:0px;
 	box-sizing:border-box;
 }
-*::first-letter (not .d){
+*:not(.d){
 	
 	text-transform:capitalize;
 }
@@ -65,14 +65,11 @@ h1 {
 @media all and (max-width:540px) {
 
 	.gridbox1 {
-		
-		display:grid;
-		
-		grid-template-rows: 100% 100% 100% 100%  ;
+		grid-template-columns: 1fr;
 
 	}
 	.img1 {	
-	width:100%;	
+		width:100%;	
 }
 
 
