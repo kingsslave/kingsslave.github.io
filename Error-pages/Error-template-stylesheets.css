@@ -4,7 +4,7 @@
 	padding:0px;
 
 }
-*:not(#d){
+*:not(.d){
 	
 	text-transform:capitalize;
 }
@@ -34,11 +34,11 @@ h1  {
 	text-align:center;
 }
 
-#d >* {
+.d >* {
 	text-align:right;
 	direction:rtl;	
 }
-#d,#c {
+.d,#c {
 	
 	width:500px;
 }
@@ -48,7 +48,7 @@ h1  {
 		width:80%;	
 	}
 	
-	#d {
+	.d {
 		
 		width:100%;
 		box-sizing:border-box;
