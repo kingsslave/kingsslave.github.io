@@ -68,7 +68,7 @@ footer a, br {
 footer {
 	padding:22px 56px;
 	width:100%;
-	min-height:100px;
+	height:100px;
 	background-color:rgb(44,44,44);
 	color:white;
 	position:relative;
