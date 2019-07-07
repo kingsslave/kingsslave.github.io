@@ -5,21 +5,64 @@
 <link rel="stylesheet" href="../library/bootstrap-4.3.1-dist/css/bootstrap.css">
 <title>john titor</title>
 <style>
-
+	.dropbar {
+		display:none;		
+	}
+	.dropbar-container:hover  .dropbar{
+		display:block;
+		background-color:green;
+	}
+	.container {
+		background-color:tomato;
+		color:white;
+	}
+	body {
+		background-color:pink;
+	}
+	.nav {
+		background-color:gray;
+	}
+	
 </style>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-
-
 </head>
 <body>
 	<div class="container ">
 		<ul class="nav nav-pills justify-content-center" role="tablist">	
 			<li class="nav-item"><a class="nav-link active" data-toggle="pill" href="#home">home</a></li>
-			<li class="nav-item"><a class="nav-link" data-toggle="pill" href="#menu1">time travel theories</a></li>
-			<li class="nav-item"><a class="nav-link" data-toggle="pill" href="#menu2">physics & chemistry</a></li>
-			<li class="nav-item"><a class="nav-link" data-toggle="pill" href="#menu3">other related theories</a></li>
+			
+			<li class="dropbar-container nav-item">
+				<a class="nav-link" data-toggle="pill" href="#menu1">time travel theories</a>
+				<ul class="dropbar nav flex-column">
+					<li class="nav-item"><a class="nav-link" href=""></a></li>
+					<li class="nav-item"><a class="nav-link" href=""></a></li>
+					<li class="nav-item"><a class="nav-link" href=""></a></li>
+					<li class="nav-item"><a class="nav-link" href=""></a></li>					
+				</ul>
+			</li>
+			
+			<li class="dropbar-container nav-item">
+				<a class="nav-link" data-toggle="pill" href="#menu2">physics & chemistry</a>
+				<ul class="dropbar nav flex-column">
+					<li class="nav-item"><a class="nav-link" href=""></a></li>
+					<li class="nav-item"><a class="nav-link" href=""></a></li>
+					<li class="nav-item"><a class="nav-link" href=""></a></li>
+					<li class="nav-item"><a class="nav-link" href=""></a></li>					
+				</ul>
+			</li>			
+			<li class="dropbar-container nav-item">
+				<a class="nav-link" data-toggle="pill" href="#menu3">other related theories</a>
+				<ul class="dropbar nav flex-column">
+					<li class="nav-item"><a class="nav-link" href=""></a></li>
+					<li class="nav-item"><a class="nav-link" href=""></a></li>
+					<li class="nav-item"><a class="nav-link" href=""></a></li>
+					<li class="nav-item"><a class="nav-link" href=""></a></li>					
+				</ul>			
+			</li>
+			
+			
 			<li class="nav-item"><a class="nav-link" data-toggle="pill" href="#menu4">about</a></li>
 			<li class="nav-item"><a class="nav-link" data-toggle="pill" href="#menu5">contact</a></li>
 		</ul>
@@ -44,21 +87,6 @@
 			</div>	
 			
 			<div class="container tab-pane fade" id="menu2">
-				<h1>chaos Theory</h1>
-				<p></p>
-				<h1>Copenhagen interpretation</h1>
-				<p></p>
-				<h1>deja Vu</h1>
-				<p></p>
-				<h1>Janets law</h1>
-				<p></p>
-				<h1>Schrodinger's cat</h1>
-				<p></p>
-				<h1>the principle of casualty</h1>
-				<p></p>
-			</div>
-			
-			<div class="container tab-pane fade" id="menu3">
 				<h1>elementary particles</h1>
 				<p></p>
 				<h1>electromagnetic wave</h1>
@@ -75,6 +103,22 @@
 				<p></p>
 				<h1>wave function</h1>
 				<p></p>
+			</div>
+			
+			<div class="container tab-pane fade" id="menu3">
+				<h1>chaos Theory</h1>
+				<p></p>
+				<h1>Copenhagen interpretation</h1>
+				<p></p>
+				<h1>deja Vu</h1>
+				<p></p>
+				<h1>Janets law</h1>
+				<p></p>
+				<h1>Schrodinger's cat</h1>
+				<p></p>
+				<h1>the principle of casualty</h1>
+				<p></p>
+				
 			</div>
 			
 			<div class="container tab-pane fade" id="menu4">
