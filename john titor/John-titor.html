@@ -9,83 +9,172 @@
 		display:none;		
 	}
 	.dropbar-container:hover  .dropbar{
+		background-color:black;
+		color:white;
+		z-index:222;
+		border:3px solid black;
 		display:block;
-		background-color:green;
-	}
+		list-style:none;
+		padding:0px;
+		position:absolute;
+	}	
 	.container {
 		background-color:tomato;
 		color:white;
+		
 	}
 	body {
 		background-color:pink;
 	}
+	h1 {border-top:2px solid black;}
 	.nav {
-		background-color:gray;
+		background-color:black;
+		color:gray;
+		padding:0px 15px;
+		width:100%;
+		position:fixed;
+		z-index:222;
+		height:50px;
+	}	
+	.tab-content {
+		position:relative;
+		top:130px;
 	}
-	
+	footer {
+		background-color:blue;
+		height:120px;
+		position:relative;
+		bottom:0px;	
+	}
+	.nav-link {
+		color:gray;
+	}
+	.nav-link:hover {
+		color:white;
+	}
+	nav-pills {
+		background-color:white;
+		color:black;
+	}
 </style>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-	<div class="container ">
-		<ul class="nav nav-pills justify-content-center" role="tablist">	
-			<li class="nav-item"><a class="nav-link active" data-toggle="pill" href="#home">home</a></li>
-			
+		<ul class="nav nav-pills justify-content-between" role="tablist">	
+			<li class="nav-item"><a class="nav-link active" data-toggle="pill" href="#home">home</a></li>			
 			<li class="dropbar-container nav-item">
 				<a class="nav-link" data-toggle="pill" href="#menu1">time travel theories</a>
-				<ul class="dropbar nav flex-column">
-					<li class="nav-item"><a class="nav-link" href=""></a></li>
-					<li class="nav-item"><a class="nav-link" href=""></a></li>
-					<li class="nav-item"><a class="nav-link" href=""></a></li>
-					<li class="nav-item"><a class="nav-link" href=""></a></li>					
+				<ul class="dropbar">
+					<li class="nav-item"><a class="nav-link" href="">chronology protection conjecture</a></li>
+					<li class="nav-item"><a class="nav-link" href="">singularity and naked singularity</a></li>
+					<li class="nav-item"><a class="nav-link" href="">super string theory</a></li>
+					<li class="nav-item"><a class="nav-link" href="">the urashima effect</a></li>					
 				</ul>
-			</li>
-			
+			</li>			
 			<li class="dropbar-container nav-item">
 				<a class="nav-link" data-toggle="pill" href="#menu2">physics & chemistry</a>
-				<ul class="dropbar nav flex-column">
-					<li class="nav-item"><a class="nav-link" href=""></a></li>
-					<li class="nav-item"><a class="nav-link" href=""></a></li>
-					<li class="nav-item"><a class="nav-link" href=""></a></li>
-					<li class="nav-item"><a class="nav-link" href=""></a></li>					
+				<ul class="dropbar ">
+					<li class="nav-item"><a class="nav-link" href="">elementary particles</a></li>
+					<li class="nav-item"><a class="nav-link" href="">electromagnetic wave</a></li>
+					<li class="nav-item"><a class="nav-link" href="">fractal structure</a></li>
+					<li class="nav-item"><a class="nav-link" href="">hunds rule</a></li>
+					<li class="nav-item"><a class="nav-link" href="">phase transition</a></li>
+					<li class="nav-item"><a class="nav-link" href="">quantum teleportation</a></li>
+					
+
 				</ul>
 			</li>			
 			<li class="dropbar-container nav-item">
 				<a class="nav-link" data-toggle="pill" href="#menu3">other related theories</a>
-				<ul class="dropbar nav flex-column">
-					<li class="nav-item"><a class="nav-link" href=""></a></li>
-					<li class="nav-item"><a class="nav-link" href=""></a></li>
-					<li class="nav-item"><a class="nav-link" href=""></a></li>
-					<li class="nav-item"><a class="nav-link" href=""></a></li>					
+				<ul class="dropbar ">
+					<li class="nav-item"><a class="nav-link" href="">chaos theory</a></li>
+					<li class="nav-item"><a class="nav-link" href="">copenhagen interpretation</a></li>
+					<li class="nav-item"><a class="nav-link" href="">deja vu</a></li>
+					<li class="nav-item"><a class="nav-link" href="">janets law</a></li>					
 				</ul>			
 			</li>
-			
-			
 			<li class="nav-item"><a class="nav-link" data-toggle="pill" href="#menu4">about</a></li>
 			<li class="nav-item"><a class="nav-link" data-toggle="pill" href="#menu5">contact</a></li>
-		</ul>
-	
-		<div class="tab-content">
-		
+		</ul>	
+	<div class="container ">
+		<div class="tab-content">		
 			<div class="container tab-pane active" id="home">
 				<h1>John titor</h1>
-				<p></p>
-			</div>
-			
+				<p>John Titor is a name used on several bulletin boards during 2000 and 2001 by a poster claiming to be an American military time traveler from 2036.[1][2] Titor made numerous vague and specific predictions regarding calamitous events in 2004 and beyond, including a nuclear war, none of which came true. Subsequent closer examination of Titor's assertions provoked widespread skepticism. Inconsistencies in his explanations, the uniform inaccuracy of his predictions, and a private investigator's findings all led to the general impression that the entire episode was an elaborate hoax. A 2009 investigation concluded that Titor was likely the creation of Larry Haber, a Florida entertainment lawyer, along with his brother Morey, a computer scientist.</p>
+				<h1>titors posts</h1>
+				<p>The first posts using John Titor's military symbol appeared on the Time Travel Institute forums on November 2, 2000, under the name TimeTravel_0.[4] At that time the name "John Titor" was not being used. The posts discussed time travel in general, the first one being the "six parts" description of what a time machine would need to have to work (see below) and responses to questions about how such a machine would work. Early messages tended to be short. A second thread was also made due to shortcomings in the forum software at the time.[5]
+
+					The name "John Titor" was not introduced until January 2001, when TimeTravel_0 began posting at the Art Bell BBS Forums (which required a name or pseudonym for every account). The Titor posts ended in late March 2001.
+
+					Around 2003, various websites reproduced Titor's posts, re-arranging them into narratives. Not all refer to the original dates posted.[6]
+					IBM 5100 computer
+
+					In his online postings, Titor claimed to be an American soldier from 2036, based in Tampa, Florida. He was assigned to a governmental time-travel project, and sent back to 1975 to retrieve an IBM 5100 computer, which he said was needed to debug various legacy computer programs in 2036 – a possible reference to the UNIX year 2038 problem.[3] The IBM 5100 runs the APL and BASIC programming languages.
+
+					Titor said he had been selected for this mission specifically, given that his paternal grandfather was directly involved with the assembly and programming of the 5100.[7] In support of this, he described unpublicized features of the 5100, leading to assumptions that a computer scientist was behind the postings.[3] Titor claimed to be on a stopover in the year 2000 for "personal reasons",[3] to collect pictures lost in the (future) civil war and to visit his family, of whom he spoke often.
+
+					Titor also said he had been, for a few months, trying to alert anyone that would listen about the threat of Creutzfeldt–Jakob disease spread through beef products and about the possibility of civil war within the United States. When questioned about them by an online subscriber, Titor also expressed an interest in mysteries such as UFOs, which remained unexplained in his time. Titor suggested that UFOs and extraterrestrials might be travelers from much further into the future than his own time, with superior time machines. </p>
+				<h1>Time machine</h1>
+				<p>Titor described his time machine on several occasions. In an early post, he described it as a "stationary mass, temporal displacement unit powered by two top-spin, dual positive singularities", producing a "standard off-set Tipler sinusoid".[3]
+
+					The earliest post was more explicit, saying it contained the following: </p>
+				<ul>
+					<li>Two magnetic housing units for the dual micro singularities</li>
+					<li>An electron injection manifold to alter mass and gravity of the micro singularities</li>
+					<li>A cooling and X-ray venting system</li>
+					<li>Gravity sensors, or a variable gravity lock</li>
+					<li>Four main cesium clocks</li>
+					<li>Three main computer units</li>	
+				</ul>
+				<p>According to the posts, the device was installed in the rear of a 1967 Chevrolet Corvette convertible[8] and later mentioned a 1987 truck having four-wheel drive.</p>
+				<h1>Predictions</h1>
+				<p>Although invoking the many-worlds interpretation of quantum mechanics, whereby events from his timeline may differ from our own, Titor also expressed assurance that the differences were minimal. As such, his descriptions have been interpreted as predictions and compared with historical events since 2001.
+
+					The most immediate of Titor's predictions was of an upcoming civil war in the United States having to do with "order and rights".[9] He described it as beginning in 2004,[10] with civil unrest surrounding the presidential election of that year. This civil conflict that he characterized as "having a Waco type event every month that steadily gets worse"[10] would be "pretty much at everyone's doorstep"[9] and erupt by 2008.
+
+					As a result of the war, the United States would split into five regions based on various factors and differing military objectives. This civil war, according to Titor, would end in 2015 with a brief but intense World War III.
+
+					Titor refers to the exchange as "N Day". Washington, D.C. and Jacksonville, Florida are specifically mentioned as being hit. After the war, Omaha, Nebraska would be the new U.S. capital. Titor was vague as to the exact motivations and causes for World War III. At one point, he characterized the hostilities as being led by "border clashes and overpopulation".[11] He also pointed to the contemporary conflict between Arabs and Israel as not a cause, but rather a milestone that precedes a hypothetical World War III.
+
+					Titor claimed that as a 13-year-old in 2011, he joined the Fighting Diamondbacks, a shotgun infantry unit in Florida, for at least four years. In other posts, he described himself as hiding from the war.
+
+					Titor claimed that the "Everett–Wheeler model of quantum physics", better known as the many-worlds interpretation, was correct. According to Titor, this caused a new timestream to form because of his time travel. This gives his predictions the ability to stand up to scrutiny when they fail to pass, since believers can say that the events were averted by Titor's postings.</p>
+				<h1>Criticism and discussion</h1>
+				<p>The New Republic called Titor the most famous of several internet forum posters who claimed to be time travelers.[8]
+
+					An Italian television program, Voyager – Ai confini della conoscenza, aired the results of an investigation of John Titor on May 19, 2008. Private investigator Mike Lynch found no registry evidence, past or present, of any individual named John Titor. He did, however, identify the John Titor Foundation, a for-profit company formed on September 16, 2003, with no office or address other than a rented post box in Kissimmee, Florida. An IP address connected with Titor also geolocated to Kissimmee.[12]
+
+					In 2009, a report by John Hughston of the Hoax Hunter website named Larry Haber, a Florida entertainment lawyer, as the CEO of the foundation.[13][14] Lynch concluded that Haber and his brother Morey Haber, a computer scientist, were very likely the men behind John Titor, whom they actually introduced in 1998, accompanied by different predictions, including chaos due to the Y2K "bug".[3] John Hughston also reported that John Titor is a registered trademark with the United States Patent and Trademark Office.
+
+					In 2018, multimedia artist Joseph Matheny, creator of the alternate reality game Ong's Hat,[15] said that he worked as a consultant for unnamed individuals responsible for the legend. John Titor "is a story that was created as a literary experiment by people who were observing what I was doing with Ong's Hat and these people wanted to do something like that. I was a consultant on the project, [but] it wasn't my project."</p>	
+			</div>			
 			<div class="container tab-pane fade" id="menu1">
 				<h1>chronology protection conjecture</h1>
-				<p> </p>
-				
+				<p>The chronology protection conjecture is a conjecture first proposed by Stephen Hawking which hypothesizes that the laws of physics are such as to prevent time travel on all but submicroscopic scales. The permissibility of time travel is represented mathematically by the existence of closed timelike curves in some exact solutions to General Relativity. The chronology protection conjecture should be distinguished from chronological censorship under which every closed timelike curve passes through an event horizon, which might prevent an observer from detecting the causal violation[1] (also known as chronology violation). </p>				
 				<h1> singularity and naked singularity</h1>
-				<p> </p>
+				<p>a singularity is a location in spacetime where the gravitational field of a celestial body is predicted to become infinite by general relativity in a way that does not depend on the coordinate system. The quantities used to measure gravitational field strength are the scalar invariant curvatures of spacetime, which includes a measure of the density of matter. Since such quantities become infinite within the singularity, the laws of normal spacetime cannot exist.[1][2]
+
+					Gravitational singularities are mainly considered in the context of general relativity, where density apparently becomes infinite at the center of a black hole, and within astrophysics and cosmology as the earliest state of the universe during the Big Bang. Physicists are undecided whether the prediction of singularities means that they actually exist (or existed at the start of the Big Bang), or that current knowledge is insufficient to describe what happens at such extreme densities. <br></br>a naked singularity is a hypothetical gravitational singularity without an event horizon. In a black hole, the singularity is completely enclosed by a boundary known as the event horizon, inside which the gravitational force of the singularity is so strong that light cannot escape. Hence, objects inside the event horizon—including the singularity itself—cannot be directly observed. A naked singularity, by contrast, would be observable from the outside.
+
+					The theoretical existence of naked singularities is important because their existence would mean that it would be possible to observe the collapse of an object to infinite density. It would also cause foundational problems for general relativity, because general relativity cannot make predictions about the future evolution of space-time near a singularity. In generic black holes, this is not a problem, as an outside viewer cannot observe the space-time within the event horizon.
+
+					Naked singularities have not been observed in nature. Astronomical observations of black holes indicate that their rate of rotation falls below the threshold to produce a naked singularity (spin parameter 1). GRS 1915+105 comes closest to the limit, with a spin parameter of 0.82-1.00.[1]
+
+					According to the cosmic censorship hypothesis, gravitational singularities may not be observable. If loop quantum gravity is correct, naked singularities may be possible in nature.  </p>
+				
 				<h1>super string theory</h1>
-				<p></p>
-				<h1>the urashima effect</h1>
-				<p></p>
-			</div>	
-			
+				<p>superstring theory is an attempt to explain all of the particles and fundamental forces of nature in one theory by modeling them as vibrations of tiny supersymmetric strings.
+
+					'Superstring theory' is a shorthand for supersymmetric string theory because unlike bosonic string theory, it is the version of string theory that accounts for both fermions and bosons and incorporates supersymmetry to model gravity.
+
+					Since the second superstring revolution, the five superstring theories are regarded as different limits of a single theory tentatively called M-theory. </p>
+				<h1>Time dilation</h1>
+				<p>According to the theory of relativity, time dilation is a difference in the elapsed time measured by two observers, either due to a velocity difference relative to each other, or by being differently situated relative to a gravitational field. As a result of the nature of spacetime,[2] a clock that is moving relative to an observer will be measured to tick slower than a clock that is at rest in the observer's own frame of reference. A clock that is under the influence of a stronger gravitational field than an observer's will also be measured to tick slower than the observer's own clock.
+
+					Such time dilation has been repeatedly demonstrated, for instance by small disparities in a pair of atomic clocks after one of them is sent on a space trip, or by clocks on the Space Shuttle running slightly slower than reference clocks on Earth, or clocks on GPS and Galileo satellites running slightly faster.[1][2][3] Time dilation has also been the subject of science fiction works, as it technically provides the means for forward time travel.</p>
+			</div>				
 			<div class="container tab-pane fade" id="menu2">
 				<h1>elementary particles</h1>
 				<p></p>
@@ -103,8 +192,7 @@
 				<p></p>
 				<h1>wave function</h1>
 				<p></p>
-			</div>
-			
+			</div>			
 			<div class="container tab-pane fade" id="menu3">
 				<h1>chaos Theory</h1>
 				<p></p>
@@ -117,18 +205,20 @@
 				<h1>Schrodinger's cat</h1>
 				<p></p>
 				<h1>the principle of casualty</h1>
-				<p></p>
-				
-			</div>
-			
+				<p></p>				
+			</div>			
 			<div class="container tab-pane fade" id="menu4">
 				<h1></h1>
-			</div>
-			
+			</div>			
 			<div class="container tab-pane fade" id="menu5">
 				<h1></h1>
 			</div>	
 		</div>
+	</div>
+	<div class="container">
+	<footer>
+	all jhsfdiujhgfuiboifdvb sjfohoidfs nisfeiohsoifjsf
+	</footer>
 	</div>
 </body>
 </html>
