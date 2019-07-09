@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="../library/bootstrap-4.3.1-dist/css/bootstrap.css">
+
+	<style>
+		.dropbar {
+		display:none;		
+		}
+		.dropbar-container:hover  .dropbar{
+			background-color:black;
+			color:white;
+			z-index:222;
+			border:3px solid black;
+			display:block;
+			list-style:none;
+			padding:0px;
+			position:absolute;
+			
+		}	
+		.tab-content {
+			background-color:rgb(33,33,33);
+			color:white;
+			min-height:600px;
+			margin-left:auto;
+			margin-right:auto;
+			max-width:720px;
+			padding:0;
+			
+
+		}
+		.container {
+					padding:0px 15px;
+					}
+		body {
+			background:url("../images/3840px-Cygnus_Wall.jpg");
+			background-repeat:no-repeat;
+			background-attachment:fixed;
+			min-height:1000px;
+			text-transform:capitalize;
+		}
+		h1 {
+			border-top:2px solid white;
+			margin-top:20px;
+			}
+		.nav {
+			background-color:black;
+			color:gray;
+			padding:0px 15px;
+			width:100%;
+			position:fixed;
+			z-index:222;
+			height:90px;
+			align-content:center;
+			
+		}	
+		.tab-content {
+			position:relative;
+			padding-top:120px;
+		}
+		footer {
+			background-color:black;		
+			width:100%;
+			color:white;
+			padding:22px 30px;
+			box-sizing:border-box;
+			margin-left:auto;
+			margin-right:auto;
+			position:relative;
+			bottom:0;
+		}
+		.nav-link {
+			color:gray;
+		}
+		.nav-item {
+			width:16.6%;
+		}
+		.dropbar .nav-link {
+			width:250px;
+		}
+		.dropbar .nav-link:hover {
+			
+			background-color:gray;		
+		}
+		.nav-link:hover {
+			color:white;
+		}
+		p {
+			margin:0;
+			padding-bottom:12px;
+		}
+	</style>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script
+</head>
+<body>
+	<ul class="nav nav-pills justify-content-between" role="tablist">	
+		<li class="nav-item"><a class="nav-link active" data-toggle="pill" href="#home">home</a></li>			
+		<li class="dropbar-container nav-item">
+			<a class="nav-link" data-toggle="pill" href="#menu1">time travel theories</a>
+			<ul class="dropbar">
+				<li class="nav-item"><a class="nav-link" href="">chronology protection conjecture</a></li>
+				<li class="nav-item"><a class="nav-link" href="">singularity and naked singularity</a></li>
+				<li class="nav-item"><a class="nav-link" href="">super string theory</a></li>
+				<li class="nav-item"><a class="nav-link" href="">the urashima effect</a></li>					
+			</ul>
+		</li>			
+		<li class="dropbar-container nav-item">
+			<a class="nav-link" data-toggle="pill" href="#menu2">physics & chemistry</a>
+			<ul class="dropbar ">
+				<li class="nav-item"><a class="nav-link" href="">elementary particles</a></li>
+				<li class="nav-item"><a class="nav-link" href="">electromagnetic wave</a></li>
+				<li class="nav-item"><a class="nav-link" href="">fractal structure</a></li>
+				<li class="nav-item"><a class="nav-link" href="">hunds rule</a></li>
+				<li class="nav-item"><a class="nav-link" href="">phase transition</a></li>
+				<li class="nav-item"><a class="nav-link" href="">quantum teleportation</a></li>
+				<li class="nav-item"><a class="nav-link" href=" ">theory of relativity</a></li>
+				<li class="nav-item"><a class="nav-link" href=" ">wave function</a></li>
+
+			</ul>
+		</li>			
+		<li class="dropbar-container nav-item">
+			<a class="nav-link" data-toggle="pill" href="#menu3">other related theories</a>
+			<ul class="dropbar ">
+				<li class="nav-item"><a class="nav-link" href="">chaos theory</a></li>
+				<li class="nav-item"><a class="nav-link" href="">copenhagen interpretation</a></li>
+				<li class="nav-item"><a class="nav-link" href="">deja vu</a></li>
+				<li class="nav-item"><a class="nav-link" href="">janets law</a></li>
+				<li class="nav-item"><a class="nav-link" href=" ">Schrodinger's cat</a></li>
+				<li class="nav-item"><a class="nav-link" href=" ">the principle of Causality</a></li>	
+			</ul>			
+		</li>
+		<li class="nav-item"><a class="nav-link" data-toggle="pill" href="#menu4">about</a></li>
+		<li class="nav-item"><a class="nav-link" data-toggle="pill" href="#menu5">contact</a></li>
+	</ul>
+	<div class="tab-content">
+		<div class="container tab-pane">
+			<h1></h1>
+			<p></p>
+			
+		</div>
+	</div>
+	<footer class="justify-content-center">
+	&copy;served by kingsslave all rights reserved 2019.
+	<br>
+	the content of this web page was entirely provided by wikipedia.
+	
+	</footer>	
+</body>
+</html>
