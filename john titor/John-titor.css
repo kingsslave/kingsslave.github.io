@@ -1,0 +1,131 @@
+	p {
+			margin-bottom:0;
+			padding-bottom:17px;
+		}		
+	.tab-content {
+		background-color:black;
+		color:white;
+		min-height:100vh;
+		margin-left:auto;
+		margin-right:auto;
+		max-width:720px;
+		padding:0;
+		position:relative;
+		padding-top:90px;
+		
+	}
+	.container {
+				padding:0px 15px;
+				}
+	body {
+		background:url("../images/3840px-Cygnus_Wall.jpg");
+		background-repeat:no-repeat;
+		background-attachment:fixed;
+		
+		text-transform:capitalize;
+	}
+	h1 {
+		border-top:2px solid white;
+		margin-top:20px;
+		}
+	h1:first-child {
+		color:gray;
+		border:none;
+		font-size:3rem;
+	}	
+/*navagation bar*/		
+	.dropbar {
+		display:none;		
+	}
+	.navbar-nav {
+		background-color:black;
+		color:gray;
+		padding:0px 15px;
+		width:100%;
+		font-size:20px;	
+		
+		
+	}
+	.navbar-nav  li {
+		min-width:16vw;
+		max-height:70px;
+	}
+	.navbar-nav a {
+		height:70px;
+	
+	}
+	.nav-link {
+		color:gray;
+	}
+	.dropbar .nav-link {
+		
+		border-bottom:1px solid white;
+		border-radius:0;
+	}
+	.dropbar-container:hover  .dropbar{
+		background-color:black;
+		color:white;
+		z-index:222;
+		
+		display:block;
+		list-style:none;
+		padding:0px;
+		position:absolute;		
+	}	
+	.dropbar .nav-link:hover {
+		
+		background-color:gray;		
+	}
+	.nav-link:hover {
+		color:white;
+		}
+	.nav-pills .nav-link.my-active {
+		background-color: rgb(23,23,23);
+		color:purple;
+		border-radius:0;
+		}
+/*  roman list */
+	.flex-column li {
+		
+		list-style:upper-roman;
+		list-style-position:inside;
+		margin-bottom:20px;
+	}
+	.flex-column  a{
+		color:purple;
+		font-size:1.75rem;
+		
+	}
+	.flex-column h1 {
+		color:#7500d4;
+		margin-bottom:50px;
+	}
+	
+	footer {
+		background-color:black;
+		
+		width:100%;
+		color:white;
+		padding:22px 15px;
+		box-sizing:border-box;
+		position:relative;
+		bottom:0;
+		border-top:1px solid white;
+	}
+	img {
+		width:100%;
+		}
+	.carousel {
+		height:500px;
+		}
+	
+	@media all and (max-width:540px) {
+		.dropbar-container:hover  .dropbar{
+			display:none;			
+		}
+		.carousel {display:none;}
+		.fixed-top {
+			
+			position:static;
+		}
+	}
