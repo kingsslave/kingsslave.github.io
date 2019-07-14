@@ -21,6 +21,7 @@
 		background:url("../images/3840px-Cygnus_Wall.jpg");
 		background-repeat:no-repeat;
 		background-attachment:fixed;
+		text-transform:capitalize;
 	}
 	h1 {
 		border-top:2px solid white;
