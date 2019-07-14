@@ -32,7 +32,12 @@
 		border:none;
 		font-size:3rem;
 	}	
-/*navagation bar*/		
+/*navagation bar*/	
+	.navbar-nav .nav-link {
+		padding-left: 15px;
+		padding-right: 15px;
+		
+	}
 	.dropbar {
 		display:none;		
 	}
