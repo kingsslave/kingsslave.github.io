@@ -6,7 +6,7 @@
 	<link rel="stylesheet" href="John-titor.css">
 	<script src="../library/bootstrap-4.3.1-dist/js/jquery-3.4.1.min.js"></script>
 	<script src="../library/bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js"></script>
-	<title>physics &amp chemistry</title>
+	<title>physics and chemistry</title>
 </head>
 <body>
 		<ul class="fixed-top  navbar-expand-sm navbar-nav nav-pills justify-content-between" >	
@@ -47,8 +47,9 @@
 			<li class="nav-item"><a class="nav-link"  href="contact.html">contact</a></li>
 		</ul>	
 		<div class="tab-content"> 
-<div class="container">		
-			<ul class="nav flex-column">
+<div class="container">	
+			<input class="form-control" id="searchinput" type="text" placeholder="search....">
+			<ul class="nav flex-column" id="search">
 			<h1>list of physics &amp chemistry related-theories:</h1>
 				<li class="nav-item">				
 					<a href="physics-chemistry/elementary-particles.html">elementary particles</a>
@@ -73,9 +74,19 @@
 				</li>
 			</ul>	
 		</div>	
+		<script>
+				$(document).ready(function(){
+				  $("#searchinput").on("keyup", function() {
+					var value = $(this).val().toLowerCase();
+					$("#search li").filter(function() {
+					  $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+					});
+				  });
+				});
+			</script>
 			</div>
 		<footer>
-			&ampcopy;served by kingsslave all rights reserved 2019.
+			&copy;served by kingsslave all rights reserved 2019.
 			<br>
 			the content of this web site including the images  was entirely provided by wikipedia.			
 		</footer>

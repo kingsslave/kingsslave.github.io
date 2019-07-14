@@ -48,7 +48,8 @@
 		</ul>	
 		<div class="tab-content"> 
 <div class="container">		
-			<ul class="nav flex-column">
+			<input class="form-control" id="searchinput" type="text" placeholder="search....">
+			<ul class="nav flex-column" id="search">	
 			<h1>list of time travel-theories:</h1>
 				<li class="nav-item">				
 					<a href="time-travel-theories/chronology-protection-conjecture.html">chronology protection conjecture</a>
@@ -64,9 +65,19 @@
 				</li>
 			</ul>	
 		</div>	
+		<script>
+				$(document).ready(function(){
+				  $("#searchinput").on("keyup", function() {
+					var value = $(this).val().toLowerCase();
+					$("#search li").filter(function() {
+					  $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+					});
+				  });
+				});
+			</script>
 			</div>
 		<footer>
-			&ampcopy;served by kingsslave all rights reserved 2019.
+			&copy;served by kingsslave all rights reserved 2019.
 			<br>
 			the content of this web site including the images  was entirely provided by wikipedia.			
 		</footer>
