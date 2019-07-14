@@ -6,7 +6,7 @@
 	<link rel="stylesheet" href="John-titor.css">
 	<script src="../library/bootstrap-4.3.1-dist/js/jquery-3.4.1.min.js"></script>
 	<script src="../library/bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js"></script>
-	<title>contact</title>
+	<title>other related theories</title>
 </head>
 <body>
 		<ul class="fixed-top  navbar-expand-sm navbar-nav nav-pills justify-content-between" >	
@@ -33,7 +33,7 @@
 				</ul>
 			</li>			
 			<li class="dropbar-container nav-item">
-				<a class="nav-link"  href="other-related-theories.html">other related theories</a>
+				<a class="nav-link my-active"  href="other-related-theories.html">other related theories</a>
 				<ul class="dropbar ">
 					<li class="nav-item"><a class="nav-link" href="other-related-theories/chaos-Theory.html">chaos theory</a></li>
 					<li class="nav-item"><a class="nav-link" href="other-related-theories/Copenhagen-interpretation.html">copenhagen interpretation</a></li>
@@ -43,23 +43,48 @@
 					<li class="nav-item"><a class="nav-link" href="other-related-theories/the-principle-of-Causality.html ">the principle of Causality</a></li>
 				</ul>								
 			</li>
-			<li class="nav-item"><a class="nav-link "  href="about.html">about</a></li>
-			<li class="nav-item"><a class="nav-link my-active"  href="contact.html">contact</a></li>
+			<li class="nav-item"><a class="nav-link"  href="about.html">about</a></li>
+			<li class="nav-item"><a class="nav-link"  href="contact.html">contact</a></li>
 		</ul>	
 		<div class="tab-content"> 
-			<div class="container">		
-			<h1>contact &amp details</h1>
-				<p>for any further inquries please contact me through the methods below, i speak both english and arabic </p>
-				<ul>
-				<li>johntitor@gmail.com</li>
-				<li>johntitor@hotmail.com</li>
-				<li>+955 394725503</li>
-				<li>612378681321878 (national line)</li>
-				</ul>
-				<p>if for some reason you cannot contact me with any of the methods below, you can contact me through live chat or private messaging through this site  </p>
-			
-			</div>	
-		</div>
+<div class="container">		
+			<input class="form-control" id="searchinput" type="text" placeholder="search....">
+			<ul class="nav flex-column" id="search">
+			<h1>list of other related-theories:</h1>
+				<li class="nav-item">				
+					<a href="other-related-theories/chaos-Theory.html">chaos theory</a>
+				</li>
+				<li class="nav-item">
+					<a href="other-related-theories/Copenhagen-interpretation.html">Copenhagen interpretation</a>
+				</li>
+				<li class="nav-item">
+					<a href="other-related-theories/deja-Vu.html">deja Vu</a>
+				</li>
+				<li class="nav-item">
+					<a href="other-related-theories/Janets-law.html">Janets law</a>
+				</li>
+				<li class="nav-item">
+					<a href="other-related-theories/Schrodinger's-cat.html">Schrodinger's cat</a>
+				</li>
+								<li class="nav-item">
+					<a href="other-related-theories/chaos-Theory.html">theory of relativity</a>
+				</li>
+								<li class="nav-item">
+					<a href="other-related-theories/the-principle-of-Causality.htmll">the principle of Causality</a>
+				</li>
+			</ul>	
+			<script>
+				$(document).ready(function(){
+				  $("#searchinput").on("keyup", function() {
+					var value = $(this).val().toLowerCase();
+					$("#search li").filter(function() {
+					  $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+					});
+				  });
+				});
+			</script>
+		</div>	
+			</div>
 		<footer>
 			&ampcopy;served by kingsslave all rights reserved 2019.
 			<br>
