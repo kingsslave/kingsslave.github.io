@@ -48,7 +48,8 @@
 		</ul>	
 		<div class="tab-content"> 
 <div class="container">		
-			<ul class="nav flex-column">
+			<input class="form-control" id="searchinput" type="text" placeholder="search....">
+			<ul class="nav flex-column" id="search">
 			<h1>list of other related-theories:</h1>
 				<li class="nav-item">				
 					<a href="other-related-theories/chaos Theory.html">chaos theory</a>
@@ -72,6 +73,16 @@
 					<a href="other-related-theories/the principle of Causality.htmll">the principle of Causality</a>
 				</li>
 			</ul>	
+			<script>
+				$(document).ready(function(){
+				  $("#searchinput").on("keyup", function() {
+					var value = $(this).val().toLowerCase();
+					$("#search li").filter(function() {
+					  $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+					});
+				  });
+				});
+			</script>
 		</div>	
 			</div>
 		<footer>
