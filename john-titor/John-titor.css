@@ -43,8 +43,8 @@
 		border:none;
 		font-size:3rem;
 	}
-		svg:hover {
-			fill:white;
+		.svg:hover {
+			fill:purple;
 			
 		}
 	/*a:hover {
