@@ -43,6 +43,10 @@
 		border:none;
 		font-size:3rem;
 	}
+	.svg {
+		width:33px;
+		
+	}
 		.svg:hover {
 			fill:purple;
 			
