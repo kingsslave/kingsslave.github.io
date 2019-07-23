@@ -71,7 +71,7 @@
 	.dropbar {
 		display:none;		
 	}
-	.navbar-nav, nav {
+	 nav {
 		background-color:black;
 		color:gray;
 		padding:0px;
