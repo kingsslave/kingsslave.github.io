@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Poetry on My second Site</title>
+    <link>http://example.org/tags/poetry/</link>
+    <description>Recent content in Poetry on My second Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 01 Aug 2019 10:28:25 +0300</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/poetry/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Titor</title>
+      <link>http://example.org/titor/</link>
+      <pubDate>Thu, 01 Aug 2019 10:28:25 +0300</pubDate>
+      
+      <guid>http://example.org/titor/</guid>
+      <description>A tree that looks at God all day,
+And lifts her leafy arms to pray;
+A tree that may in Summer wear
+A nest of robins in her hair;
+Upon whose bosom snow has lain;
+Who intimately lives with rain.
+Poems are made by fools like me,
+But only God can make a tree.</description>
+    </item>
+    
+    <item>
+      <title>Janet</title>
+      <link>http://example.org/janet/</link>
+      <pubDate>Thu, 01 Aug 2019 10:23:53 +0300</pubDate>
+      
+      <guid>http://example.org/janet/</guid>
+      <description>hat it will never come again
+Is what makes life so sweet.
+Believing what we don’t believe
+Does not exhilarate.
+That if it be, it be at best
+An ablative estate &amp;ndash;
+This instigates an appetite
+Precisely opposite.</description>
+    </item>
+    
+    <item>
+      <title>Johnny</title>
+      <link>http://example.org/john/</link>
+      <pubDate>Thu, 01 Aug 2019 09:02:06 +0300</pubDate>
+      
+      <guid>http://example.org/john/</guid>
+      <description>If you can keep your head when all about you
+Are losing theirs and blaming it on you,
+If you can trust yourself when all men doubt you,
+But make allowance for their doubting too;
+If you can wait and not be tired by waiting,
+Or being lied about, don’t deal in lies,
+Or being hated, don’t give way to hating,
+And yet don’t look too good, nor talk too wise:</description>
+    </item>
+    
+  </channel>
+</rss>

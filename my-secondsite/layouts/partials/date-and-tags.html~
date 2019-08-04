@@ -1,0 +1,12 @@
+{{ $dateTime := .Date.Format "2019-08-01"}}
+{{ $dateFormat := .Site.Params.dateFormat | default "Aug 1, 2019"}}
+<i data-feather="calendar"></i> 
+<time datetime="{{ $dateTime }}">{{ .Date.Format $dateFormat }}</time>
+{{ with .params.tags }}
+    <br>
+    <i data-feather="tag"></i>
+    {{ range . }}
+    {{ $href := print (absURL "tags/") (urlize .) }}
+    <a class="btn btn-sm btn-outline-dark tag-btn" href="{{ $href }}">{{ . }}</a>
+    {{end}}
+{{end}}
