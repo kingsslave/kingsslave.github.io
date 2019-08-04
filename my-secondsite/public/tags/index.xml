@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on My second Site</title>
-    <link>http://example.org/tags/</link>
+    <link>https://kingsslave.github.io/my-secondsite/public/tags/</link>
     <description>Recent content in Tags on My second Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 01 Aug 2019 09:02:06 +0300</lastBuildDate>
     
-	<atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://kingsslave.github.io/my-secondsite/public/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Life</title>
-      <link>http://example.org/tags/life/</link>
+      <link>https://kingsslave.github.io/my-secondsite/public/tags/life/</link>
       <pubDate>Thu, 01 Aug 2019 09:02:06 +0300</pubDate>
       
-      <guid>http://example.org/tags/life/</guid>
+      <guid>https://kingsslave.github.io/my-secondsite/public/tags/life/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Poetry</title>
-      <link>http://example.org/tags/poetry/</link>
+      <link>https://kingsslave.github.io/my-secondsite/public/tags/poetry/</link>
       <pubDate>Thu, 01 Aug 2019 10:28:25 +0300</pubDate>
       
-      <guid>http://example.org/tags/poetry/</guid>
+      <guid>https://kingsslave.github.io/my-secondsite/public/tags/poetry/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Time</title>
-      <link>http://example.org/tags/time/</link>
+      <link>https://kingsslave.github.io/my-secondsite/public/tags/time/</link>
       <pubDate>Thu, 01 Aug 2019 10:23:53 +0300</pubDate>
       
-      <guid>http://example.org/tags/time/</guid>
+      <guid>https://kingsslave.github.io/my-secondsite/public/tags/time/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Trees</title>
-      <link>http://example.org/tags/trees/</link>
+      <link>https://kingsslave.github.io/my-secondsite/public/tags/trees/</link>
       <pubDate>Thu, 01 Aug 2019 10:28:25 +0300</pubDate>
       
-      <guid>http://example.org/tags/trees/</guid>
+      <guid>https://kingsslave.github.io/my-secondsite/public/tags/trees/</guid>
       <description></description>
     </item>
     

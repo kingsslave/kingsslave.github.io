@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>My second Site</title>
-    <link>http://example.org/</link>
+    <link>https://kingsslave.github.io/my-secondsite/public/</link>
     <description>Recent content on My second Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 01 Aug 2019 10:28:25 +0300</lastBuildDate>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://kingsslave.github.io/my-secondsite/public/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Titor</title>
-      <link>http://example.org/titor/</link>
+      <link>https://kingsslave.github.io/my-secondsite/public/titor/</link>
       <pubDate>Thu, 01 Aug 2019 10:28:25 +0300</pubDate>
       
-      <guid>http://example.org/titor/</guid>
+      <guid>https://kingsslave.github.io/my-secondsite/public/titor/</guid>
       <description>A tree that looks at God all day,
 And lifts her leafy arms to pray;
 A tree that may in Summer wear
@@ -29,10 +29,10 @@ But only God can make a tree.</description>
     
     <item>
       <title>Janet</title>
-      <link>http://example.org/janet/</link>
+      <link>https://kingsslave.github.io/my-secondsite/public/janet/</link>
       <pubDate>Thu, 01 Aug 2019 10:23:53 +0300</pubDate>
       
-      <guid>http://example.org/janet/</guid>
+      <guid>https://kingsslave.github.io/my-secondsite/public/janet/</guid>
       <description>hat it will never come again
 Is what makes life so sweet.
 Believing what we don’t believe
@@ -45,10 +45,10 @@ Precisely opposite.</description>
     
     <item>
       <title>Johnny</title>
-      <link>http://example.org/john/</link>
+      <link>https://kingsslave.github.io/my-secondsite/public/john/</link>
       <pubDate>Thu, 01 Aug 2019 09:02:06 +0300</pubDate>
       
-      <guid>http://example.org/john/</guid>
+      <guid>https://kingsslave.github.io/my-secondsite/public/john/</guid>
       <description>If you can keep your head when all about you
 Are losing theirs and blaming it on you,
 If you can trust yourself when all men doubt you,

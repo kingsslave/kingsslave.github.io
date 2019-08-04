@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://kingsslave.github.io/my-secondsite/public/"
 languageCode = "en-us"
 title = "My second Site"
 [permalinks]

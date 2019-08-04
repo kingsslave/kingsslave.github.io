@@ -3,57 +3,57 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/titor/</loc>
+    <loc>https://kingsslave.github.io/my-secondsite/public/titor/</loc>
     <lastmod>2019-08-01T10:28:25+03:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/janet/</loc>
+    <loc>https://kingsslave.github.io/my-secondsite/public/janet/</loc>
     <lastmod>2019-08-01T10:23:53+03:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/john/</loc>
+    <loc>https://kingsslave.github.io/my-secondsite/public/john/</loc>
     <lastmod>2019-08-01T09:02:06+03:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/tags/life/</loc>
+    <loc>https://kingsslave.github.io/my-secondsite/public/tags/life/</loc>
     <lastmod>2019-08-01T09:02:06+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/</loc>
+    <loc>https://kingsslave.github.io/my-secondsite/public/</loc>
     <lastmod>2019-08-01T10:28:25+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/tags/poetry/</loc>
+    <loc>https://kingsslave.github.io/my-secondsite/public/tags/poetry/</loc>
     <lastmod>2019-08-01T10:28:25+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://kingsslave.github.io/my-secondsite/public/tags/</loc>
     <lastmod>2019-08-01T09:02:06+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/tags/time/</loc>
+    <loc>https://kingsslave.github.io/my-secondsite/public/tags/time/</loc>
     <lastmod>2019-08-01T10:23:53+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/blog/</loc>
+    <loc>https://kingsslave.github.io/my-secondsite/public/blog/</loc>
     <lastmod>2019-08-01T10:28:25+03:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/tags/trees/</loc>
+    <loc>https://kingsslave.github.io/my-secondsite/public/tags/trees/</loc>
     <lastmod>2019-08-01T10:28:25+03:00</lastmod>
     <priority>0</priority>
   </url>

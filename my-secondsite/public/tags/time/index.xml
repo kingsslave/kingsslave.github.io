@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Time on My second Site</title>
-    <link>http://example.org/tags/time/</link>
+    <link>https://kingsslave.github.io/my-secondsite/public/tags/time/</link>
     <description>Recent content in Time on My second Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 01 Aug 2019 10:23:53 +0300</lastBuildDate>
     
-	<atom:link href="http://example.org/tags/time/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://kingsslave.github.io/my-secondsite/public/tags/time/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Janet</title>
-      <link>http://example.org/janet/</link>
+      <link>https://kingsslave.github.io/my-secondsite/public/janet/</link>
       <pubDate>Thu, 01 Aug 2019 10:23:53 +0300</pubDate>
       
-      <guid>http://example.org/janet/</guid>
+      <guid>https://kingsslave.github.io/my-secondsite/public/janet/</guid>
       <description>hat it will never come again
 Is what makes life so sweet.
 Believing what we don’t believe
